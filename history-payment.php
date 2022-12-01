@@ -8,7 +8,7 @@
     }
 
     if(isset($_GET['message'])){
-        if(addHistory($_GET['message'], $_SESSION['idEmployee']) > 0){
+        if(orderedFood($_GET['message'], $_SESSION['idEmployee']) > 0){
             echo " 
                 <script>
                     alert('succeed deleting food');
