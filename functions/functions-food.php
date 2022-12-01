@@ -162,8 +162,8 @@
         $dataTerbaruQuantity = [];
         $database_food = queryFunction("SELECT * FROM food ORDER BY id_food DESC LIMIT 1");
         $length = $database_food[0]['id_food'];
-        $id_food;
-        $id_quantity;
+        $id_food = "";
+        $id_quantity = "";
 
         for($i = 1; $i<=$length; $i++){
             $u = (string)$i;
