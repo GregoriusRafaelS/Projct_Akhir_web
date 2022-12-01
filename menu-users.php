@@ -8,7 +8,7 @@
     }
 
     if($_GET['category'] == "all"){
-        $food = queryFunction("SELECT * FROM food WHERE category='appetizer' OR category='main course' OR category='dessert' OR category='drink'");
+        $food = queryFunction("SELECT * FROM food WHERE category='appetizer' OR category='main course' OR category='dessert' OR category='drink' OR category='dan lain lain'");
     }else{
         $food = queryFunction("SELECT * FROM food WHERE category='$_GET[category]'");
     }
