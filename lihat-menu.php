@@ -50,11 +50,46 @@
         <div class="row">
             <div class="col-6 ps-5">
                 <h1 class="text-hello">Hello, <?= $_SESSION['usernameUsers']; ?></h1>
-                <p class="text-welcome">Ini pesanan yang ingi anda lihat ! <?= $food[0]["nama"] ?></p>
+                <p class="text-welcome">Ini pesanan yang ingin anda lihat ! <?= $food[0]["nama"] ?></p>
+                
+                
+
             </div>
             <div class="col-6">
-                    <img src="img/<?= $food[0]['gambar']; ?>" alt="logo-makanna" style="width: 400px; margin: 100px">
-                </center>            </div>
+            <div class="card" style="width: 600px; margin: 50px; padding:50px;">
+            <center>
+                <img class="card-img-top" src="img/<?= $food[0]['gambar']; ?>" alt="logo-makanna" style="width: 400px;">
+            </center>
+                    <div class="card-body bg-dark text-light mt-5 rounded">
+                        <table>
+                            <tr>
+                                <td>Keterangan</td>
+                                <td> : </td>
+                                <td><p class="card-text text-start"><?= $food[0]['keterangan']; ?></p></td>
+                            </tr>
+                            <tr>
+                                <td>Harga</td>
+                                <td> : </td>
+                                <td><p class="card-text"><?= $food[0]['harga']; ?></p></td>
+                            </tr>
+                            <tr>
+                                <td>Rating</td>
+                                <td> : </td>
+                                <td><p class="card-text"><?= $food[0]['rating']; ?></p></p></td>
+                            </tr>
+                            <tr>
+                                <td>Category</td>
+                                <td> : </td>
+                                <td><p class="card-text"><?= $food[0]['category']; ?></p></td>
+                            </tr>
+                        </table>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>                
+            </div>
         </div>
     </div>
 
