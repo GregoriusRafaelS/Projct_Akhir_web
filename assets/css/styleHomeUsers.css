@@ -1,0 +1,312 @@
+.main-page{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../logo_background/background-home-users.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.employee-about-page{
+    width: 100%;
+    background-image: url("../logo_background/background-home-users.png");
+    background-repeat: repeat;
+}
+
+.about-main-page{
+    width: 100%;
+}
+
+.about-users-background1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../logo_background/background-about-users-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-main-page{
+    background-color: #36384C;
+    background-repeat: repeat-x;
+    /* background-size: contain */
+}
+
+.logo-restaurant{
+    border-right: 5px solid orange;
+    font-family: 'Poppins';
+    padding: 55px;
+}
+
+.navbar{
+    border-bottom: 10px solid orange;
+    background: #36384C;
+}
+
+.navbar-menu{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+    margin-left: 60px;
+}
+
+.navbar-menu .text-menu:hover{
+    color: orange !important;
+}
+
+.menu-users-title-food{
+    margin-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top : 2px solid orange;
+    border-right : 2px solid orange;
+    border-bottom : 2px solid orange;
+    font-size: 30px;
+    font-weight: 400;
+    color: orange;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.vertical-text{
+    font-family: "Poppins";
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 120px;
+    padding-top: 50px;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+ }
+
+.menu-users-title-drink{
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top : 2px solid orange;
+    border-left : 2px solid orange;
+    border-bottom : 2px solid orange;
+    font-size: 30px;
+    font-weight: 400;
+    color: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu-users-food{
+    background-color: orange;
+    margin-top: 25px;
+    border-top : 2px solid orange;
+    border-right : 2px solid orange;
+    border-bottom : 2px solid orange;
+    font-size: 30px;
+    font-weight: 400;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu-users-drink{
+    background-color: orange;
+    margin-top: 25px;
+    border-top : 2px solid orange;
+    border-left : 2px solid orange;
+    border-bottom : 2px solid orange;
+    font-size: 30px;
+    font-weight: 400;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu-users-logo-card{
+    width: 400px;
+    height: 400px;
+}
+
+.container-main{
+    width:max-content;
+}
+
+
+/* 
+.nav li.nav-link.active{
+    color: orange !important;
+} */
+
+.logout{
+    padding-right: 30px;
+}
+
+.logo-search{
+    position: absolute;
+    padding-top: 200px;
+    /* top: 324px; */
+    width: 340px;
+}
+
+.logo-burger{
+    position: absolute;
+    padding-top: 200px;
+    /* top: 324px; */
+    width: 320px;
+}
+
+.logo-kentang{
+    position: absolute;
+    padding-top: 100px;
+    /* top: 224px;
+    left: 1080px; */
+    width: 280px;
+}
+
+
+.text-hello{
+    margin-top: 150px;
+    width: 426px;
+    height: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: orange;
+}
+
+.text-welcome{
+    width: 600px;
+    height: 144px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #36384C;
+}
+ 
+/* kotakan log out */
+/* .a{
+    position: absolute;
+    width: 90px;
+    height: 87px;
+    left: 1280px;
+    top: 958px;
+    background: #36384C;
+    border-radius: 15px;
+} */
+ 
+/* Logo */
+/* position: absolute;
+width: 81px;
+height: 132px;
+left: 70px;
+top: 26px;
+background: url(.png); */
+
+ 
+/* kotakan menu navbar */
+/* .a{
+    position: absolute;
+    width: 680px;
+    height: 87px;
+    left: 690px;
+    top: 48px;
+    background: #36384C;
+    border-radius: 39px;
+} */
+ 
+/* kotakan lets see it */
+/* position: absolute;
+width: 310px;
+height: 87px;
+left: 70px;
+top: 635px;
+background: #36384C;
+border-radius: 25px; */
+ 
+/* Home */
+/* position: absolute;
+width: 90px;
+height: 45px;
+left: 714px;
+top: 68px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px; */
+/* identical to box height */
+/* color: #FF9900; */
+ 
+/* Lets See It */
+/* position: absolute;
+width: 158px;
+height: 48px;
+left: 109px;
+top: 655px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px; */
+/* identical to box height */
+/* color: #FF9900; */
+ 
+/* About */
+/* position: absolute;
+width: 102px;
+height: 45px;
+left: 870px;
+top: 68px; */
+
+ 
+/* font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px; */
+/* identical to box height */
+/* color: #FAFAFA; */
+ 
+/* Menu */
+/* .a{
+    position: absolute;
+    width: 85px;
+    height: 45px;
+    left: 1042px;
+    top: 69px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FAFAFA;
+} */
+ 
+/* Contact */
+/* position: absolute;
+width: 153px;
+height: 45px;
+left: 1197px;
+top: 69px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px; */
+/* identical to box height */
+/* color: #FAFAFA; */
+ 
+/* logo logout */
+/* position: absolute; */
+/* left: 90.49%;
+right: 6.46%;
+top: 94.82%;
+bottom: 0.88%;
+background: #FF0000; */
+
+ 
+/* /logo lets see it/
+position: absolute;
+width: 50px;
+height: 50px;
+left: 340px;
+top: 654px;
+transform: matrix(-1, 0, 0, 1, 0, 0); */

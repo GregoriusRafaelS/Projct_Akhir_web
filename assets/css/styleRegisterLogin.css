@@ -1,0 +1,92 @@
+.main-page{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../logo_background/background-login-register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-register{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FAFAFA;
+}
+
+.main-page .text-info{
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.container-main-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 638px;
+    height: 225px;
+    background: #FAFAFA;
+    border-radius: 30px;
+}
+
+.input-user-password{
+    width: 300px;
+    height: 30px;
+    background: #FAFAFA;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+ 
+.container-register{
+    box-sizing: border-box;
+    width: 145px;
+    height: 35px;
+    background: #00A3FF;
+    border: 3px solid #000000;
+    border-radius: 15px;
+}
+ 
+.register-button{
+    position: absolute;
+    width: 71px;
+    height: 36px;
+    left: 698px;
+    top: 686px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+ 
+.text-login{
+    display: flex;
+    justify-content: center;
+    width: 571px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.text-login a{
+    color: #FFFFFF;
+}
+
+.text-login a:hover{
+    color: #c3ff00;
+    text-decoration: none;
+}
